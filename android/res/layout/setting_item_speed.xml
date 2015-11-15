@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/font_hi" />
+	<SeekBar
+        android:id="@+id/seekBarSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumb="@drawable/seekbar_thumb" >
+    </SeekBar>
+	 <TextView
+			android:id="@+id/description"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Description"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_marginBottom="2dp"
+			android:textColor="@color/font_lo" />
+</LinearLayout>

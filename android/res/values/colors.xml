@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="seekbar_color">#ffffff</color>
+    <color name="transparent">#00000000</color>
+	<color name="bg_settings">#172229</color>    
+	<color name="bg_dialog">#1d2d37</color>    
+	<color name="font_hi">#ffffff</color>    
+	<color name="font_lo">#88ffffff</color>    
+    <drawable name="button_select_hi">#77ffffff</drawable>
+    <drawable name="button_select">#77ffffff</drawable>
+    <drawable name="button_border">#22ffffff</drawable>
+    <drawable name="button_border2">#555d62</drawable>
+    <drawable name="button_border2_bg">#18ffffff</drawable>
+    <drawable name="button_hi">#66ffffff</drawable>
+    <drawable name="button_lo">#00000000</drawable>
+</resources>

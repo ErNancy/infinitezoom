@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Infinite Zoom</string>
+	<string name="app_description"></string>
+    <string name="picker_toast_prefix">Choose \"</string>
+    <string name="picker_toast_suffix">\" from the list of live wallpapers</string>
+	<string name="settings_patternSettingsTitle">Select Pattern</string>
+	<string name="settings_visualTitle">Visual</string>
+	<string name="settings_animationTitle">Animation</string>
+	<string name="settings_extraTitle">Extra</string>
+
+	<string name="settings_checkBoxTestTitle">CheckBox test</string>
+	<string name="settings_checkBoxTestSummary">Checked = red color of touch</string>
+
+	<string name="settings_patternTitle">Select Pattern</string>
+	<string name="PatternPack1Title">Pattern Pack 1</string>
+
+	<string name="settings_colorStyleTitle">Color Style</string>
+
+	<string name="pp_1_title">Pattern Pack I - Geometry</string>
+	<string name="pp_2_title">Pattern Pack II - Tunnels</string>
+	<string name="pp_3_title">Pattern Pack III - Floral</string>
+	
+	<string name="pp_1_summary">Five awesome new geometry patterns.</string>
+	<string name="pp_2_summary">Five awesome new tunnel motives.</string>
+	<string name="pp_3_summary">Five awesome new floral patterns.</string>
+	
+	
+	
+	<string name="settings_directionTitle">Zoom</string>
+		<string-array name="settings_directionEntries">
+		<item>Inwards</item>
+		<item>Outwards</item>
+	</string-array>
+	<string-array name="settings_directionValues">
+		<item>"0"</item>
+		<item>"1"</item>
+	</string-array>
+	
+	<string name="settings_rotationTitle">Rotation</string>
+		<string-array name="settings_rotationEntries">
+		<item>None</item>
+		<item>Clockwise</item>
+		<item>Counter-Clockwise</item>
+	</string-array>
+	<string-array name="settings_rotationValues">
+		<item>"0"</item>
+		<item>"1"</item>
+		<item>"2"</item>
+	</string-array>
+	
+	
+	
+	<string name="settings_button_otherAppsTitle">Other Apps from author</string>
+	<string name="settings_button_supportTitle">Need help?</string>
+
+	<!-- SYSTEM -->
+	<string name="settings_toast_unavailable">Google Play is unavailable</string>
+	<string name="service_name">LWPTemplate</string>
+	<string name="support_email">your@gmail.com</string>
+	<string name="url_more">market://search?q=pub:XdebugX</string>
+	
+	<!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>    
+    <string name="color1_title">Color 1</string>
+    <string name="color2_title">Color 2</string>
+    <string name="color3_title">Color 3</string>
+    <string name="color4_title">Color 4</string>
+    
+		 
+	<!-- Speed Slider -->
+    <string name="slider_speed_title">Zoom Speed</string>
+	<string-array name="slider_speed_summaries">
+	    <item>Comfortable</item>
+	    <item>Average</item>
+	    <item>Fast</item>
+	    <item>Insane</item>
+	</string-array>
+	<item name="slider_speed_default" format="float" type="string">0.2</item>
+	<string name="slider_speed_message">Select your desired Speed</string>
+	<!-- Rotation Speed Slider -->
+    <string name="slider_rotation_speed_title">Rotation Speed</string>
+	<string-array name="slider_rotation_speed_summaries">
+	    <item>Comfortable</item>
+	    <item>Average</item>
+	    <item>Fast</item>
+	    <item>Insane</item>
+	</string-array>
+	<item name="slider_rotation_speed_default" format="float" type="string">0.2</item>
+	<string name="slider_rotation_speed_message">Select your desired Speed</string>
+	<string name="_android_attr_textappearancesmall">\?android:attr/textAppearanceSmall</string>
+	
+</resources>

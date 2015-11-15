@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright CMW Mobile.com, 2010. -->
+
+<resources>
+	<declare-styleable name="ImageListPreference">
+		<attr name="entryImages" format="reference" />
+	</declare-styleable>
+	<declare-styleable name="FullVersionPreference">
+		<attr name="image" format="reference" />
+		<attr name="preview" format="reference" />
+		<attr name="pp_summary" format="reference" />
+		<attr name="pp_title" format="reference" />
+	</declare-styleable>
+</resources>
